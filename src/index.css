@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --font-family-sans: 'Inter', sans-serif;
+  --font-family-display: 'Space Grotesk', sans-serif;
+
+  --color-raisin-black: #232126;
+  --color-ghost-white: #F8F8FF;
+  --color-celestial-blue: #4997D0;
+  --color-mandarin: #F07F3C;
+  --color-vermilion: #D53C3C;
+}
+
+@layer base {
+  body {
+    @apply bg-raisin-black text-ghost-white font-sans;
+  }
+}
